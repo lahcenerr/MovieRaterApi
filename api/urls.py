@@ -5,8 +5,8 @@ from django.conf.urls import include
 from api.views import MovieViewSet, RatingViewSet
 
 router = DefaultRouter()
-router.register(r'movies', MovieViewSet)
-router.register(r'ratings', RatingViewSet)
+router.register('movies', MovieViewSet)
+router.register('ratings', RatingViewSet)
 urlpatterns = [
     path('', include(router.urls))
 ]
