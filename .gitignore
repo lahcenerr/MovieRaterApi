@@ -2,3 +2,4 @@ venv/
 Git/
 .idea/
 db.sqlite3
+api/__pycache__/
