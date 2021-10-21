@@ -25,7 +25,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["movie-raters.herokuapp.com"]
 
 
 # Application definition
@@ -138,5 +138,4 @@ CORS_ORIGIN_ALLOW_ALL = True
 #     "http://localhost:4200"
 # ]
 CORS_ALLOW_CREDENTIALS = True
-ALLOWED_HOSTS = ['*']
 
