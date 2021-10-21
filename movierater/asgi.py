@@ -8,9 +8,9 @@ https://docs.djangoproject.com/en/3.2/howto/deployment/asgi/
 """
 
 import os
-
+from dj_static import Cling
 from django.core.asgi import get_asgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'movierater.settings')
 
-application = get_asgi_application()
+application = Cling(get_asgi_application())
